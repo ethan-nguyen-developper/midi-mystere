@@ -17,7 +17,13 @@ function Favorites() {
 
             {favorites.map((favorite) => (
                 <div key={favorite.id}>
-                    <p>{favorite.name}</p>
+                    <p>Nom : {favorite.name}</p>
+                    <p>Marque : {favorite.brand}</p>
+                    <p>Prix : {favorite.price} €</p>
+                    <p>Catégorie : {favorite.category}</p>
+                    <p>Type : {favorite.mealType}</p>
+                    <p>Température : {favorite.temperature}</p>
+                    <p>Poids : {favorite.weightGrams} g</p>
                     <button onClick={() => handleDeleteFromFavorites(favorite.id)}>Supprimer des favoris</button>
                 </div>
             ))}

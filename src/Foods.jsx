@@ -23,7 +23,13 @@ function Foods() {
 
             {foods.map((food) => (
                 <div key={food.id}>
-                    <p>{food.name}</p>
+                    <p>Nom : {food.name}</p>
+                    <p>Marque : {food.brand}</p>
+                    <p>Prix : {food.price} €</p>
+                    <p>Catégorie : {food.category}</p>
+                    <p>Type : {food.mealType}</p>
+                    <p>Température : {food.temperature}</p>
+                    <p>Poids : {food.weightGrams} g</p>
                     { favorites.some(favorite => favorite.id === food.id) === false ?
                         <button onClick={() => handleAddToFavorites(food)}>Ajouter aux favoris</button>
                         :

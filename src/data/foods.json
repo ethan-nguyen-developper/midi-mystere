@@ -1,22 +1,123 @@
+
 [
-    {
-        "id": 1,
-        "name": "foods 1"
-    },
-    {
-        "id": 2,
-        "name": "foods 2"
-    },
-    {
-        "id": 3,
-        "name": "foods 3"
-    },
-    {
-        "id": 4,
-        "name": "foods 4"
-    },
-    {
-        "id": 5,
-        "name": "foods 5"
-    }
+  {
+    "id": 1,
+    "name": "Sandwich jambon beurre",
+    "brand": "Carrefour Bon Appétit",
+    "price": 0.99,
+    "category": "sandwich",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": 125,
+    "nutriScore": "C",
+    "tags": ["jambon", "pain"]
+  },
+  {
+    "id": 2,
+    "name": "Sandwich jambon emmental",
+    "brand": "Carrefour Bon Appétit",
+    "price": 1.29,
+    "category": "sandwich",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": 145,
+    "nutriScore": "C",
+    "tags": ["jambon", "fromage"]
+  },
+  {
+    "id": 3,
+    "name": "Sandwich thon œuf",
+    "brand": "Carrefour Bon Appétit",
+    "price": 1.59,
+    "category": "sandwich",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": null,
+    "nutriScore": "A",
+    "tags": ["thon", "œuf"]
+  },
+  {
+    "id": 4,
+    "name": "Wraps poulet rôti crudités",
+    "brand": "Carrefour Bon Appétit",
+    "price": 2.39,
+    "category": "wrap",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": 180,
+    "nutriScore": "B",
+    "tags": ["poulet", "crudités"]
+  },
+  {
+    "id": 5,
+    "name": "Sandwich poulet Tandoori",
+    "brand": "Carrefour Bon Appétit",
+    "price": 1.85,
+    "category": "sandwich",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": 135,
+    "nutriScore": null,
+    "tags": ["poulet", "épicé"]
+  },
+  {
+    "id": 6,
+    "name": "Salade jambon emmental",
+    "brand": "Carrefour Bon Appétit",
+    "price": 2.39,
+    "category": "salade",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": 250,
+    "nutriScore": null,
+    "tags": ["jambon", "fromage", "pâtes"]
+  },
+  {
+    "id": 7,
+    "name": "Salade Caesar poulet rôti",
+    "brand": "Carrefour Bon Appétit",
+    "price": 2.89,
+    "category": "salade",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": 250,
+    "nutriScore": null,
+    "tags": ["poulet", "salade"]
+  },
+  {
+    "id": 8,
+    "name": "Radiatori carbonara",
+    "brand": "Carrefour Bon Appétit",
+    "price": 2.75,
+    "category": "plat-prepare",
+    "mealType": ["salé"],
+    "temperature": "chaud",
+    "weightGrams": 400,
+    "nutriScore": null,
+    "tags": ["pâtes", "carbonara"]
+  },
+  {
+    "id": 9,
+    "name": "Moelleux au chocolat",
+    "brand": "Carrefour Bon Appétit",
+    "price": 1.79,
+    "category": "dessert",
+    "mealType": ["sucré"],
+    "temperature": "froid",
+    "weightGrams": 90,
+    "nutriScore": null,
+    "tags": ["chocolat"]
+  },
+  {
+    "id": 10,
+    "name": "Sandwich poulet crudités",
+    "brand": "Carrefour Bon Appétit",
+    "price": 1.19,
+    "category": "sandwich",
+    "mealType": ["salé"],
+    "temperature": "froid",
+    "weightGrams": 145,
+    "nutriScore": null,
+    "tags": ["poulet", "crudités"]
+  }
 ]
