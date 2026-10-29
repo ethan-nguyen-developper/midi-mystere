@@ -1,0 +1,46 @@
+[
+    {
+        "id": "wraps-chicken",
+        "name": "Wraps chicken",
+        "besoin_couvert": "non",
+        "nutriscore": "A",
+        "price": 5,
+        "weight": 200
+    },
+
+    {
+        "id": "wraps-fajitas",
+        "name": "Wraps fajitas",
+        "besoin_couvert": "non",
+        "nutriscore": "A",
+        "price": 5,
+        "weight": 200
+    },
+
+    {
+        "id": "wraps-saumon",
+        "name": "Wraps saumon",
+        "besoin_couvert": "non",
+        "nutriscore": "A",
+        "price": 5,
+        "weight": 200
+    },
+
+    {
+        "id": "pates-carbo",
+        "name": "Pâtes carbonara",
+        "besoin_couvert": "oui",
+        "nutriscore": "A",
+        "price": 5,
+        "weight": 400
+    },
+
+    {
+        "id": "pates-bolo",
+        "name": "Pâtes bolognaise",
+        "besoin_couvert": "oui",
+        "nutriscore": "A",
+        "price": 5,
+        "weight": 400
+    }
+]
